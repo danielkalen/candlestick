@@ -187,6 +187,18 @@ function bearishKicker(dataArray) {
     return findPattern(dataArray, isBearishKicker);
 }
 
+module.exports.bodyLen = bodyLen;
+module.exports.wickLen = wickLen;
+module.exports.tailLen = tailLen;
+module.exports.isHammerLike = isHammerLike;
+module.exports.isInvertedHammerLike = isInvertedHammerLike;
+module.exports.isEngulfed = isEngulfed;
+module.exports.isGap = isGap;
+module.exports.isGapUp = isGapUp;
+module.exports.isGapDown = isGapDown;
+module.exports.isBullish = isBullish;
+module.exports.isBearish = isBearish;
+
 module.exports.isHammer = isHammer;
 module.exports.isInvertedHammer = isInvertedHammer;
 module.exports.isHangingMan = isHangingMan;
