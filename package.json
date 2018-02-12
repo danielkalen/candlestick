@@ -41,16 +41,6 @@
     "eslint-plugin-react": "^6.4.1",
     "mocha": "^2.5.3"
   },
-  "files": [
-    "lib/",
-    "test/",
-    "LICENSE",
-    "HISTORY.md",
-    "README.md",
-    "index.js",
-    ".eslintrc.json",
-    ".travis.yml"
-  ],
   "scripts": {
     "test": "mocha --check-leaks --use_strict"
   },
